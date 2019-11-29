@@ -26,6 +26,11 @@
       "blockClass": "miniImage"
     }
   },
+  "flex-layout.col#middleSpacer": {
+    "props": {
+      "width": "3%"
+    }
+  },
   "flex-layout.col#miniSpacer": {
     "props": {
       "width": "10%"

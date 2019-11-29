@@ -15,7 +15,9 @@
     "children": [
       "footer-spacer",
       "flex-layout.col#mainFooter1",
+      "flex-layout.col#middleSpacer",
       "flex-layout.col#mainFooter2",
+      "flex-layout.col#middleSpacer",
       "flex-layout.col#mainFooter3",
       "footer-spacer"
     ],

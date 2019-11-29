@@ -3,8 +3,10 @@
   text-align: center;
   justify-content: center;
 }
-.container--whiteLetter .paragraph{
+.container--whiteLetter .paragraph, .container--whiteLetter .link{
   color: #fff;
+  font-size: 14px;
+
 }
 
 .container--deals .paragraph {

@@ -6,9 +6,12 @@
 .container--whiteLetter .paragraph, .container--whiteLetter .link{
   color: #fff;
   font-size: 14px;
-
 }
-
+.container--whiteLetterRights .paragraph{
+  color: #fff;
+  display: flex;
+  align-items: center;
+}
 .container--deals .paragraph {
   margin: 0;
 }

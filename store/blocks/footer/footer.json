@@ -91,10 +91,18 @@
   },
   "flex-layout.row#footer-2-desktop": {
     "children": [
-      "accepted-payment-methods"
+      "footer-spacer",
+      "rich-text#footerRights",
+      "footer-spacer"
     ],
     "props": {
-      "blockClass": "payment-methods"
+      "blockClass": "storeRights"
+    }
+  },
+  "rich-text#footerRights": {
+    "props": {
+      "text": "Todos os direitos reservados - Thule Store Colinas © 2019       ![VTEX](https://thulestore.vteximg.com.br/arquivos/logoSpace3.png)",
+      "blockClass": "whiteLetterRights"
     }
   },
   "accepted-payment-methods": {

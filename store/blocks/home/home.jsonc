@@ -4,7 +4,9 @@
       "carousel#home",
       /* You can make references to blocks defined in other files.
        * For example, `flex-layout.row#deals` is defined in the `deals.json` file. */
-      "flex-layout.row#deals",
+      //"flex-layout.row#deals",
+      "flex-layout.row#miniImages",
+      "flex-layout.row#mediumImages",
       "shelf#home",
       "info-card#home",
       "rich-text#question",
@@ -12,7 +14,78 @@
       "newsletter"
     ]
   },
-
+  "flex-layout.row#miniImages": {
+    "children": [
+      "flex-layout.col#miniSpacer",
+      "image#miniOne",
+      "image#miniTwo",
+      "image#miniThree",
+      "image#miniFour",
+      "flex-layout.col#miniSpacer"
+    ],
+    "props": {
+      "blockClass": "miniImage"
+    }
+  },
+  "flex-layout.col#miniSpacer": {
+    "props": {
+      "width": "10%"
+    }
+  },
+  "image#miniOne": {
+    "props": {
+      "src": "https://thulestore.vteximg.com.br/arquivos/miniImage1.jpg",
+      "blockClass": "miniImage"
+    }
+  },
+  "image#miniTwo": {
+    "props": {
+      "src": "https://thulestore.vteximg.com.br/arquivos/miniImage2.jpg",
+      "blockClass": "miniImage"
+    }
+  },
+  "image#miniThree": {
+    "props": {
+      "src": "https://thulestore.vteximg.com.br/arquivos/miniImage3.jpg",
+      "blockClass": "miniImage"
+    }
+  },
+  "image#miniFour": {
+    "props": {
+      "src": "https://thulestore.vteximg.com.br/arquivos/miniImage4.jpg",
+      "blockClass": "miniImage"
+    }
+  },
+  "flex-layout.row#mediumImages": {
+    "children": [
+      "flex-layout.col#miniSpacer",
+      "image#mediumOne",
+      "image#mediumTwo",
+      "image#mediumThree",
+      "flex-layout.col#miniSpacer"
+    ],
+    "props": {
+      "blockClass": "medImage"
+    }
+  },
+  "image#mediumOne": {
+    "props": {
+      "src": "https://thulestore.vteximg.com.br/arquivos/medImage1.jpg",
+      "blockClass": "mediumImage"
+    }
+  },
+  "image#mediumTwo": {
+    "props": {
+      "src": "https://thulestore.vteximg.com.br/arquivos/medImage2.jpg",
+      "blockClass": "mediumImage"
+    }
+  },
+  "image#mediumThree": {
+    "props": {
+      "src": "https://thulestore.vteximg.com.br/arquivos/medImage3.jpg",
+      "blockClass": "mediumImage"
+    }
+  },
   "carousel#home": {
     "props": {
       "autoplay": false,
@@ -31,9 +104,10 @@
       "showDots": true
     }
   },
-
   "shelf#home": {
-    "blocks": ["product-summary.shelf"],
+    "blocks": [
+      "product-summary.shelf"
+    ],
     "props": {
       "orderBy": "OrderByTopSaleDESC",
       "paginationDotsVisibility": "desktopOnly",
@@ -48,7 +122,6 @@
       }
     }
   },
-
   "product-summary#home": {
     "props": {
       "isOneClickBuy": false,
@@ -70,7 +143,6 @@
       }
     }
   },
-
   "info-card#home": {
     "props": {
       "id": "info-card-home",
@@ -84,14 +156,12 @@
       "textAlignment": "center"
     }
   },
-
   "rich-text#question": {
     "props": {
       "text": "**This is an example store built using the VTEX platform.\nWant to know more?**",
       "blockClass": "question"
     }
   },
-
   "rich-text#link": {
     "props": {
       "text": "\n**Reach us at**\nwww.vtex.com.br",

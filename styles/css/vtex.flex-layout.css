@@ -35,3 +35,7 @@
 .flexCol--switcherMobileCol {
   width: 20%;
 }
+
+.flexRow--miniImage , .flexRow--medImage{
+  padding: 20px 0px;
+}

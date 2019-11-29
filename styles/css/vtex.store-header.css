@@ -9,4 +9,7 @@
 .headerRowContainer--main-header, .headerRowBackground--main-header{
   background-color: #000;
 }
+.headerRowContainer--main-header{
+  padding: 10px 0px;
+}
 

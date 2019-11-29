@@ -7,11 +7,10 @@
       //"flex-layout.row#deals",
       "flex-layout.row#miniImages",
       "flex-layout.row#mediumImages",
+      "flex-layout.row#slideImages",
       "shelf#home",
-      "info-card#home",
-      "rich-text#question",
-      "rich-text#link",
-      "newsletter"
+      "newsletter",
+      "flex-layout.row#qualityImage"
     ]
   },
   "flex-layout.row#miniImages": {
@@ -86,6 +85,65 @@
       "blockClass": "mediumImage"
     }
   },
+  "flex-layout.row#slideImages": {
+    "children": [
+      "flex-layout.col#miniSpacer",
+      "slider-layout#left",
+      "slider-layout#right",
+      "flex-layout.col#miniSpacer"
+    ],
+    "props": {}
+  },
+  "slider-layout#left": {
+    "children": [
+      "image#leftOne",
+      "image#mleftTwo"
+    ],
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "mobile": 1
+      },
+      "autoplay": false,
+      "showNavigationArrows": "never"
+    }
+  },
+  "image#leftOne": {
+    "props": {
+      "src": "https://thulestore.vteximg.com.br/arquivos/leftImage1.jpg"
+    }
+  },
+  "image#mleftTwo": {
+    "props": {
+      "src": "https://thulestore.vteximg.com.br/arquivos/leftImage2.jpg"
+    }
+  },
+  "slider-layout#right": {
+    "children": [
+      "image#rightOne",
+      "image#mrightTwo"
+    ],
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "mobile": 1
+      },
+      "autoplay": false,
+      "showNavigationArrows": "never"
+    }
+  },
+  "image#rightOne": {
+    "props": {
+      "src": "https://thulestore.vteximg.com.br/arquivos/rightImage1.jpg"
+    }
+  },
+  "image#mrightTwo": {
+    "props": {
+      "src": "https://thulestore.vteximg.com.br/arquivos/rightImage2.jpg"
+    }
+  },
   "carousel#home": {
     "props": {
       "autoplay": false,
@@ -143,29 +201,17 @@
       }
     }
   },
-  "info-card#home": {
+  "flex-layout.row#qualityImage": {
+    "children": [
+      "image#low"
+    ],
     "props": {
-      "id": "info-card-home",
-      "isFullModeStyle": false,
-      "textPosition": "left",
-      "imageUrl": "https://storecomponents.vteximg.com.br/arquivos/banner-infocard2.png",
-      "headline": "Clearance Sale",
-      "callToActionText": "DISCOVER",
-      "callToActionUrl": "/sale/d",
-      "blockClass": "info-card-home",
-      "textAlignment": "center"
+      "blockClass": "imageBottom"
     }
   },
-  "rich-text#question": {
+  "image#low": {
     "props": {
-      "text": "**This is an example store built using the VTEX platform.\nWant to know more?**",
-      "blockClass": "question"
-    }
-  },
-  "rich-text#link": {
-    "props": {
-      "text": "\n**Reach us at**\nwww.vtex.com.br",
-      "blockClass": "link"
+      "src": "https://thulestore.vteximg.com.br/arquivos/ImageBottom.jpg"
     }
   }
 }

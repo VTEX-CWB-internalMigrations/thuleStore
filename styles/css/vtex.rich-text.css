@@ -3,6 +3,9 @@
   text-align: center;
   justify-content: center;
 }
+.container--whiteLetter .paragraph{
+  color: #fff;
+}
 
 .container--deals .paragraph {
   margin: 0;

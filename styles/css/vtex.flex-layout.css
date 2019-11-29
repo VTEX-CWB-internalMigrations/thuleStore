@@ -39,3 +39,13 @@
 .flexRow--miniImage , .flexRow--medImage{
   padding: 20px 0px;
 }
+
+.flexRow--imageBottom{
+  padding: 20px 0px;
+}
+
+.flexRow--main-footer{
+  background: #262626;
+  color: #ffffff;
+  padding: 40px 0px;
+}

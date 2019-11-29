@@ -18,6 +18,7 @@
   },
   "header-row#1-desktop": {
     "children": [
+      "header-spacer",
       "logo#desktop",
       "vtex.menu@2.x:menu#category-menu",
       "header-spacer",
@@ -25,7 +26,8 @@
       "search-bar",
       "locale-switcher",
       "login",
-      "minicart"
+      "minicart",
+      "header-spacer"
     ],
     "props": {
       "sticky": true,
@@ -36,7 +38,7 @@
     "props": {
       "title": "Logo",
       "href": "/",
-      "url": "https://storecomponents.vteximg.com.br/arquivos/store-theme-logo.png",
+      "url": "https://thulestore.vteximg.com.br/arquivos/thuleLogo.jpg",
       "width": "180"
     }
   },

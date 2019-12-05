@@ -8,7 +8,7 @@
       "flex-layout.row#miniImages",
       "flex-layout.row#mediumImages",
       "flex-layout.row#slideImages",
-      "shelf#home",
+      "flex-layout.row#shelfOne",
       "newsletter",
       "flex-layout.row#qualityImage"
     ]
@@ -149,6 +149,15 @@
       "src": "https://thulestore.vteximg.com.br/arquivos/rightImage2.jpg"
     }
   },
+
+  "flex-layout.row#shelfOne":{
+    "children":[
+      "flex-layout.col#miniSpacer",
+      "shelf#home",
+      "flex-layout.col#miniSpacer"
+    ]
+  },
+
   "carousel#home": {
     "props": {
       "autoplay": false,
@@ -176,9 +185,9 @@
       "paginationDotsVisibility": "desktopOnly",
       "skusFilter": "FIRST_AVAILABLE",
       "productList": {
-        "maxItems": 10,
-        "itemsPerPage": 5,
-        "minItemsPerPage": 1.5,
+        "maxItems": 35,
+        "itemsPerPage": 4,
+        "minItemsPerPage": 1,
         "scroll": "BY_PAGE",
         "arrows": true,
         "titleText": "Top sellers"

@@ -35,9 +35,29 @@
     "children": [
       "product-summary-add-to-list-button",
       "stack-layout#prodsum",
+      "flex-layout.row#shelfInside"
+    ]
+  },
+  "flex-layout.row#shelfInside":{
+    "children":[
+      "flex-layout.col#shelfInside"
+    ],
+    "props":{
+      "blockClass": "shelfMaster"
+    }
+  },
+  "flex-layout.col#shelfInside":{
+    "children":[
       "product-summary-name",
       //"product-rating-inline",
+      "product-summary-description",
       "product-summary-space",
+      "flex-layout.row#shelfInsideOne"
+
+    ]
+  },
+  "flex-layout.row#shelfInsideOne":{
+    "children":[
       "product-summary-price",
       //"product-identifier.summary",
       "product-summary-buy-button"

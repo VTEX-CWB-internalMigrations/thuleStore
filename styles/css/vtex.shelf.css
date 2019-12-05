@@ -1,0 +1,13 @@
+.arrowLeft{
+    left: -35px;
+    padding: 10px;
+    background: #f1f1f1;
+    top: 49%;
+}
+
+.arrowRight{
+    right: -35px;
+    padding: 10px;
+    background: #f1f1f1;
+    top: 49%;
+}

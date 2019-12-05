@@ -1,0 +1,8 @@
+.buyButton :global(.vtex-button){
+    border-radius: 0px;
+}
+
+.productBrand{
+    color: #7bafd4;
+    font-weight: 700;
+}

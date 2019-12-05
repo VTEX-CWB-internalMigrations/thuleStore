@@ -27,6 +27,10 @@
   padding: 60px 10px;
 }
 
+.specificationsTitle{
+  display: none
+}
+
 .label {
   color: #fff;
   font-size: 26px;

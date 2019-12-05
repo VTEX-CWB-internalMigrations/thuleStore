@@ -150,23 +150,20 @@
       "src": "https://thulestore.vteximg.com.br/arquivos/rightImage2.jpg"
     }
   },
-
-  "flex-layout.row#shelfOne":{
-    "children":[
+  "flex-layout.row#shelfOne": {
+    "children": [
       "flex-layout.col#miniSpacer",
       "shelf#home",
       "flex-layout.col#miniSpacer"
     ]
   },
-
-  "flex-layout.row#shelfTwo":{
-    "children":[
+  "flex-layout.row#shelfTwo": {
+    "children": [
       "flex-layout.col#miniSpacer",
       "shelf#home2",
       "flex-layout.col#miniSpacer"
     ]
   },
-
   "carousel#home": {
     "props": {
       "autoplay": false,

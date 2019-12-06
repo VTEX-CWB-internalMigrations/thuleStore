@@ -30,8 +30,54 @@
       "width": "auto"
     },
     "children": [
-      "vtex.menu@2.x:menu#submenuRacks"
+      "flex-layout.row#entireSubmenu"
+      // "vtex.menu@2.x:menu#submenuRacks"
     ]
+  },
+  "flex-layout.row#entireSubmenu": {
+    "children": [
+      "flex-layout.col#rackOne",
+      "flex-layout.col#rackTwo",
+      "flex-layout.col#rackThree",
+      "flex-layout.col#rackFour"
+    ]
+  },
+  "flex-layout.col#rackOne": {
+    "children": [
+      "vtex.menu@2.x:menu#submenuMain"
+    ],
+    "props": {
+      "blockClass": "rackOne"
+    }
+  },
+  "flex-layout.col#rackTwo": {
+    "children": [
+      "vtex.menu@2.x:menu#submenuMain"
+    ],
+    "props": {
+      "blockClass": "rackTwo"
+    }
+  },
+  "flex-layout.col#rackThree": {
+    "children": [
+      "vtex.menu@2.x:menu#submenuMain"
+    ],
+    "props": {
+      "blockClass": "rackThree"
+    }
+  },
+  "flex-layout.col#rackFour": {
+    "children": [
+      "vtex.menu@2.x:menu#submenuMain"
+    ],
+    "props": {
+      "blockClass": "rackFour"
+    }
+  },
+  "vtex.menu@2.x:menu#submenuMain": {
+    "props": {
+      "orientation": "vertical"
+    }
   },
   "vtex.menu@2.x:menu#submenuRacks": {
     "props": {

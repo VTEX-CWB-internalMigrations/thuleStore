@@ -6,6 +6,7 @@
       "menu-item#category-backpack"
     ]
   },
+  // RACKS, SUPORTES E BAGAGEIROS INÍCIO
   "menu-item#category-racks": {
     "props": {
       "id": "menu-item-category-racks",
@@ -31,7 +32,6 @@
     },
     "children": [
       "flex-layout.row#entireSubmenu"
-      // "vtex.menu@2.x:menu#submenuRacks"
     ]
   },
   "flex-layout.row#entireSubmenu": {
@@ -79,61 +79,8 @@
       "orientation": "vertical"
     }
   },
-  "vtex.menu@2.x:menu#submenuRacks": {
-    "props": {
-      "orientation": "vertical"
-    },
-    "children": [
-      "menu-item#category-clothing-hats",
-      "menu-item#category-clothing-shoes",
-      "menu-item#category-clothing-bags"
-    ]
-  },
-  "menu-item#category-clothing-hats": {
-    "props": {
-      "id": "menu-item-category-clothing-hats",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/apparel---accessories/hats/",
-        "noFollow": true,
-        "tagTitle": "Hats",
-        "text": "Hats"
-      }
-    }
-  },
-  "menu-item#category-clothing-shoes": {
-    "props": {
-      "id": "menu-item-category-clothing-shoes",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/apparel---accessories/shoes/",
-        "noFollow": true,
-        "tagTitle": "Shoes",
-        "text": "Shoes"
-      }
-    }
-  },
-  "menu-item#category-clothing-bags": {
-    "props": {
-      "id": "menu-item-category-clothing-bags",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/apparel---accessories/bags/",
-        "noFollow": true,
-        "tagTitle": "Bags",
-        "text": "Bags"
-      }
-    }
-  },
+  // RACKS, SUPORTES E BAGAGEIROS FIM
+  // ATIVIDADES COM CRIANÇAS INÍCIO
   "menu-item#category-children": {
     "props": {
       "id": "menu-item-category-children",
@@ -148,8 +95,61 @@
         "text": "ATIVIDADES COM CRIANÇAS"
       },
       "blockClass": "childrenMenu"
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#children"
+    ]
+  },
+  "vtex.menu@2.x:submenu#children": {
+    "props": {
+      "width": "auto"
+    },
+    "children": [
+      "flex-layout.row#entireSubmenu2"
+    ]
+  },
+  "flex-layout.row#entireSubmenu2": {
+    "children": [
+      "flex-layout.col#childrenOne",
+      "flex-layout.col#childrenTwo",
+      "flex-layout.col#childrenThree",
+      "flex-layout.col#childrenFour"
+    ]
+  },
+  "flex-layout.col#childrenOne": {
+    "children": [
+      "vtex.menu@2.x:menu#submenuMain"
+    ],
+    "props": {
+      "blockClass": "childrenOne"
     }
   },
+  "flex-layout.col#childrenTwo": {
+    "children": [
+      "vtex.menu@2.x:menu#submenuMain"
+    ],
+    "props": {
+      "blockClass": "childrenTwo"
+    }
+  },
+  "flex-layout.col#childrenThree": {
+    "children": [
+      "vtex.menu@2.x:menu#submenuMain"
+    ],
+    "props": {
+      "blockClass": "childrenThree"
+    }
+  },
+  "flex-layout.col#childrenFour": {
+    "children": [
+      "vtex.menu@2.x:menu#submenuMain"
+    ],
+    "props": {
+      "blockClass": "childrenFour"
+    }
+  },
+  // ATIVIDADES COM CRIANÇAS INÍCIO
+  // MALAS E MOCHILAS
   "menu-item#category-backpack": {
     "props": {
       "id": "menu-item-category-backpack",
@@ -166,24 +166,55 @@
       "blockClass": "backpackMenu"
     },
     "blocks": [
-      "vtex.menu@2.x:submenu#custom-sale"
+      "vtex.menu@2.x:submenu#backpack"
     ]
   },
-  "vtex.menu@2.x:submenu#custom-sale": {
+  "vtex.menu@2.x:submenu#backpack": {
     "props": {
-      "width": "100%"
+      "width": "auto"
     },
     "children": [
-      "vtex.menu@2.x:menu#custom-sale"
+      "flex-layout.row#entireSubmenu3"
     ]
   },
-  "vtex.menu@2.x:menu#custom-sale": {
-    "props": {
-      "orientation": "vertical"
-    },
+  "flex-layout.row#entireSubmenu3": {
     "children": [
-      "menu-item#category-clothing-hats",
-      "menu-item#category-clothing-shoes"
+      "flex-layout.col#backpackOne",
+      "flex-layout.col#backpackTwo",
+      "flex-layout.col#backpackThree",
+      "flex-layout.col#backpackFour"
     ]
+  },
+  "flex-layout.col#backpackOne": {
+    "children": [
+      "vtex.menu@2.x:menu#submenuMain"
+    ],
+    "props": {
+      "blockClass": "backpackOne"
+    }
+  },
+  "flex-layout.col#backpackTwo": {
+    "children": [
+      "vtex.menu@2.x:menu#submenuMain"
+    ],
+    "props": {
+      "blockClass": "backpackTwo"
+    }
+  },
+  "flex-layout.col#backpackThree": {
+    "children": [
+      "vtex.menu@2.x:menu#submenuMain"
+    ],
+    "props": {
+      "blockClass": "backpackThree"
+    }
+  },
+  "flex-layout.col#backpackFour": {
+    "children": [
+      "vtex.menu@2.x:menu#submenuMain"
+    ],
+    "props": {
+      "blockClass": "backpackFour"
+    }
   }
 }

@@ -1,38 +1,39 @@
 {
   "vtex.menu@2.x:menu#category-menu": {
     "children": [
-      "menu-item#category-clothing",
-      "menu-item#category-decoration",
-      "menu-item#custom-sale"
+      "menu-item#category-racks",
+      "menu-item#category-children",
+      "menu-item#category-backpack"
     ]
   },
-  "menu-item#category-clothing": {
+  "menu-item#category-racks": {
     "props": {
-      "id": "menu-item-category-clothing",
+      "id": "menu-item-category-racks",
       "type": "custom",
       "iconId": null,
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/apparel---accessories/clothing/",
+        "href": "/",
         "noFollow": true,
-        "tagTitle": "Clothing",
-        "text": "Clothing"
-      }
+        "tagTitle": "Racks",
+        "text": "RACKS, SUPORTES E BAGAGEIROS"
+      },
+      "blockClass": "racksMenu"
     },
     "blocks": [
-      "vtex.menu@2.x:submenu#category-clothing"
+      "vtex.menu@2.x:submenu#racks"
     ]
   },
-  "vtex.menu@2.x:submenu#category-clothing": {
+  "vtex.menu@2.x:submenu#racks": {
     "props": {
       "width": "auto"
     },
     "children": [
-      "vtex.menu@2.x:menu#category-clothing"
+      "vtex.menu@2.x:menu#submenuRacks"
     ]
   },
-  "vtex.menu@2.x:menu#category-clothing": {
+  "vtex.menu@2.x:menu#submenuRacks": {
     "props": {
       "orientation": "vertical"
     },
@@ -87,34 +88,36 @@
       }
     }
   },
-  "menu-item#category-decoration": {
+  "menu-item#category-children": {
     "props": {
-      "id": "menu-item-category-decoration",
+      "id": "menu-item-category-children",
       "type": "custom",
       "iconId": null,
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/home---decor/",
+        "href": "/",
         "noFollow": true,
-        "tagTitle": "Decoration",
-        "text": "Decoration"
-      }
+        "tagTitle": "ATIVIDADES COM CRIANÇAS",
+        "text": "ATIVIDADES COM CRIANÇAS"
+      },
+      "blockClass": "childrenMenu"
     }
   },
-  "menu-item#custom-sale": {
+  "menu-item#category-backpack": {
     "props": {
-      "id": "menu-item-custom-sale",
+      "id": "menu-item-category-backpack",
       "type": "custom",
       "iconId": null,
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/sale/d",
+        "href": "",
         "noFollow": true,
-        "tagTitle": "Sale",
-        "text": "Sale"
-      }
+        "tagTitle": "MALAS E MOCHILAS",
+        "text": "MALAS E MOCHILAS"
+      },
+      "blockClass": "backpackMenu"
     },
     "blocks": [
       "vtex.menu@2.x:submenu#custom-sale"

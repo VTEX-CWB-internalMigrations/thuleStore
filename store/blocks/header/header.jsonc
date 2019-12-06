@@ -83,9 +83,9 @@
   },
   "menu#drawer": {
     "children": [
-      "menu-item#category-clothing",
-      "menu-item#category-decoration",
-      "menu-item#custom-sale"
+      // "menu-item#category-clothing",
+      // "menu-item#category-decoration",
+      // "menu-item#custom-sale"
     ],
     "props": {
       "orientation": "vertical"

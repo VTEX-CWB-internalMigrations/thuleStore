@@ -1,0 +1,24 @@
+{
+    "menu#drawer": {
+        "children": [
+            "menu-item#racksMobile",
+            "menu-item#activitiesMobile",
+            "menu-item#backpackMobile"
+        ],
+        "props": {
+            "orientation": "vertical"
+        }
+    },
+    "menu-item#racksMobile": {
+        "children": [],
+        "props": {}
+    },
+    "menu-item#activitiesMobile": {
+        "children": [],
+        "props": {}
+    },
+    "menu-item#backpackMobile": {
+        "children": [],
+        "props": {}
+    }
+}

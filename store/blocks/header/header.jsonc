@@ -60,7 +60,8 @@
   },
   "header-layout.mobile": {
     "children": [
-      "header-row#1-mobile"
+      "header-row#1-mobile",
+      "header-row#2-mobile"
     ]
   },
   "header-row#1-mobile": {
@@ -68,7 +69,7 @@
       "drawer",
       "logo#mobile",
       "header-spacer",
-      "login",
+      "login#mobile",
       "minicart"
     ],
     "props": {
@@ -76,20 +77,23 @@
       "blockClass": "main-header-mobile"
     }
   },
+  "header-row#2-mobile": {
+    "children": [
+      "search-bar"
+    ],
+    "props": {
+      "blockClass": "main-header-mobile"
+    }
+  },
+  "login#mobile": {
+    "props": {
+      "showIconProfile": true
+    }
+  },
   "drawer": {
     "children": [
       "menu#drawer"
     ]
-  },
-  "menu#drawer": {
-    "children": [
-      // "menu-item#category-clothing",
-      // "menu-item#category-decoration",
-      // "menu-item#custom-sale"
-    ],
-    "props": {
-      "orientation": "vertical"
-    }
   },
   "logo#mobile": {
     "props": {

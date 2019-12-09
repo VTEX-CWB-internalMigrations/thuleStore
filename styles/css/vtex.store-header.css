@@ -3,7 +3,7 @@
   font-size: 14px;
 }
 .headerRow--main-header :global(.vtex-menu-2-x-styledLink)  {
-  color: #bfbfbf;
+  /*color: #bfbfbf;*/
   font-size: 14px;
 }
 .headerRowContainer--main-header, .headerRowBackground--main-header{
@@ -11,5 +11,9 @@
 }
 .headerRowContainer--main-header{
   padding: 10px 0px;
+}
+
+.headerRowContainer--main-header-mobile , .headerRowContentContainer--main-header-mobile{
+  background-color: #000;
 }
 

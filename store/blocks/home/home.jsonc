@@ -98,7 +98,9 @@
       "slider-layout#right",
       "flex-layout.col#miniSpacer"
     ],
-    "props": {}
+    "props": {
+      "blockClass": "sliderFlex"
+    }
   },
   "slider-layout#left": {
     "children": [

@@ -130,6 +130,7 @@
   },
   "footer-layout.mobile": {
     "children": [
+      "flex-layout.row#footer-1-desktop",
       "flex-layout.row#1-footer-mobile",
       "flex-layout.row#2-footer-mobile"
     ]

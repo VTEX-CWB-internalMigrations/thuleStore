@@ -59,3 +59,9 @@
   padding: 10px;
   height: 235px;
 }
+
+@media only screen and (max-width: 640px) {
+  .flexRow--miniImage , .flexRow--imageBottom , .flexRow--sliderFlex{
+    display: none
+  }
+}

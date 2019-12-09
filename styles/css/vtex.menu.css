@@ -27,3 +27,22 @@
     display: block;
     margin: 0px auto;
 }
+
+.menuContainer--mainMenu .menuContainer--submenuMain .styledLink{
+    color:#000;
+}
+
+.menuContainer--mainMenu .menuContainer--submenuMain .menuItem:first-child .styledLinkContainer{
+    color:#000;
+    border-bottom: 1px solid #000;
+    padding: 10px 0px;
+}
+
+.menuContainer--submenuMain .styledLinkContainer{
+    padding: 10px 0px;
+    border-bottom: 1px solid #f1f1f1;
+}
+
+.menuContainer--mainMenu .styledLink{
+    color: #fff;
+}

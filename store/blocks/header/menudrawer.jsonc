@@ -9,16 +9,92 @@
             "orientation": "vertical"
         }
     },
+    // RACKS MOBILE
     "menu-item#racksMobile": {
-        "children": [],
-        "props": {}
+        "blocks": [
+            "vtex.menu@2.x:submenu.accordion#racks"
+        ],
+        "props": {
+            "id": "menu-item-category-racks",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/",
+                "noFollow": true,
+                "tagTitle": "Racks, Suportes e Bagageiros",
+                "text": "Racks, Suportes e Bagageiros"
+            }
+        }
     },
+    "vtex.menu@2.x:submenu.accordion#racks": {
+        "children": [
+            "vtex.menu@2.x:menu#racks-accordion"
+        ]
+    },
+    "vtex.menu@2.x:menu#racks-accordion": {
+        "props": {
+            "orientation": "vertical"
+        }
+    },
+    // ACTIVITIES MOBILE
     "menu-item#activitiesMobile": {
-        "children": [],
-        "props": {}
+        "blocks": [
+            "vtex.menu@2.x:submenu.accordion#activities"
+        ],
+        "props": {
+            "id": "menu-item-category-racks",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/",
+                "noFollow": true,
+                "tagTitle": "Atividade com Crianças",
+                "text": "Atividade com Crianças"
+            }
+        }
     },
+    "vtex.menu@2.x:submenu.accordion#activities": {
+        "children": [
+            "vtex.menu@2.x:menu#activities-accordion"
+        ]
+    },
+    "vtex.menu@2.x:menu#activities-accordion": {
+        "props": {
+            "orientation": "vertical"
+        }
+    },
+    // MOCHILAS MOBILE
     "menu-item#backpackMobile": {
-        "children": [],
-        "props": {}
+        "blocks": [
+            "vtex.menu@2.x:submenu.accordion#backpack"
+        ],
+        "props": {
+            "id": "menu-item-category-racks",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/",
+                "noFollow": true,
+                "tagTitle": "Malas e Mochilas",
+                "text": "Malas e Mochilas"
+            }
+        }
+    },
+    "vtex.menu@2.x:submenu.accordion#backpack": {
+        "children": [
+            "vtex.menu@2.x:menu#backpack-accordion"
+        ]
+    },
+    "vtex.menu@2.x:menu#backpack-accordion": {
+        "props": {
+            "orientation": "vertical"
+        }
     }
+    //
 }

@@ -54,7 +54,7 @@
       "labelMiniCartEmpty": "",
       "labelButtonFinishShopping": "Go to checkout",
       "enableQuantitySelector": true,
-      "maxQuantity": 10,
+      "maxQuantity": 30,
       "labelClasses": "white"
     }
   },

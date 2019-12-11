@@ -1,21 +1,45 @@
 {
-    "menu#drawer": {
+    
+    "drawer": {
         "children": [
-            "menu-item#racksMobile",
-            "menu-item#activitiesMobile",
-            "menu-item#backpackMobile"
+          "flex-layout.row#drawer"
+        ]
+      },
+      "flex-layout.row#drawer":{
+        "children":[
+          "flex-layout.col#drawer"
+        ]
+      },
+      "flex-layout.col#drawer":{
+        "children":[
+          "rich-text#racks",
+          "menu#drawer1"
+        ]
+      },
+      "rich-text#racks":{
+        "props":{
+          "text": "[RACKS, SUPORTES E BAGAGEIROS](/racks-suportes-e-bagageiros)",
+          "blockClass": "racksMobileMenu"
+        }
+      },
+    "menu#drawer1": {
+        "children": [
+            "menu-item#bicycleMobile",
+            "menu-item#roofMobile",
+            "menu-item#luggageMobile",
+            "menu-item#aquaticMobile"
         ],
         "props": {
             "orientation": "vertical"
         }
     },
     // RACKS MOBILE
-    "menu-item#racksMobile": {
+    "menu-item#bicycleMobile": {
         "blocks": [
-            "vtex.menu@2.x:submenu.accordion#racks"
+            "vtex.menu@2.x:submenu.accordion#bicycle"
         ],
         "props": {
-            "id": "menu-item-category-racks",
+            "id": "menu-item-category-bicycle",
             "type": "custom",
             "iconId": null,
             "highlight": false,
@@ -23,28 +47,28 @@
                 "type": "internal",
                 "href": "/",
                 "noFollow": true,
-                "tagTitle": "Racks, Suportes e Bagageiros",
-                "text": "Racks, Suportes e Bagageiros"
+                "tagTitle": "Suporte para Bicicletas",
+                "text": "Suporte para Bicicletas"
             }
         }
     },
-    "vtex.menu@2.x:submenu.accordion#racks": {
+    "vtex.menu@2.x:submenu.accordion#bicycle": {
         "children": [
-            "vtex.menu@2.x:menu#racks-accordion"
+            "vtex.menu@2.x:menu#bicycle-accordion"
         ]
     },
-    "vtex.menu@2.x:menu#racks-accordion": {
+    "vtex.menu@2.x:menu#bicycle-accordion": {
         "props": {
             "orientation": "vertical"
         }
     },
     // ACTIVITIES MOBILE
-    "menu-item#activitiesMobile": {
+    "menu-item#roofMobile": {
         "blocks": [
-            "vtex.menu@2.x:submenu.accordion#activities"
+            "vtex.menu@2.x:submenu.accordion#roof"
         ],
         "props": {
-            "id": "menu-item-category-racks",
+            "id": "menu-item-category-roof",
             "type": "custom",
             "iconId": null,
             "highlight": false,
@@ -52,28 +76,28 @@
                 "type": "internal",
                 "href": "/",
                 "noFollow": true,
-                "tagTitle": "Atividade com Crianças",
-                "text": "Atividade com Crianças"
+                "tagTitle": "Racks para Teto",
+                "text": "Racks para Teto"
             }
         }
     },
-    "vtex.menu@2.x:submenu.accordion#activities": {
+    "vtex.menu@2.x:submenu.accordion#roof": {
         "children": [
-            "vtex.menu@2.x:menu#activities-accordion"
+            "vtex.menu@2.x:menu#roof-accordion"
         ]
     },
-    "vtex.menu@2.x:menu#activities-accordion": {
+    "vtex.menu@2.x:menu#roof-accordion": {
         "props": {
             "orientation": "vertical"
         }
     },
     // MOCHILAS MOBILE
-    "menu-item#backpackMobile": {
+    "menu-item#luggageMobile": {
         "blocks": [
-            "vtex.menu@2.x:submenu.accordion#backpack"
+            "vtex.menu@2.x:submenu.accordion#luggage"
         ],
         "props": {
-            "id": "menu-item-category-racks",
+            "id": "menu-item-category-luggage",
             "type": "custom",
             "iconId": null,
             "highlight": false,
@@ -81,17 +105,47 @@
                 "type": "internal",
                 "href": "/",
                 "noFollow": true,
-                "tagTitle": "Malas e Mochilas",
-                "text": "Malas e Mochilas"
+                "tagTitle": "Bagageiros",
+                "text": "Bagageiros"
             }
         }
     },
-    "vtex.menu@2.x:submenu.accordion#backpack": {
+    "vtex.menu@2.x:submenu.accordion#luggage": {
         "children": [
-            "vtex.menu@2.x:menu#backpack-accordion"
+            "vtex.menu@2.x:menu#luggage-accordion"
         ]
     },
-    "vtex.menu@2.x:menu#backpack-accordion": {
+    "vtex.menu@2.x:menu#luggage-accordion": {
+        "props": {
+            "orientation": "vertical"
+        }
+    },
+    //
+       // Aquático MOBILE
+       "menu-item#aquaticMobile": {
+        "blocks": [
+            "vtex.menu@2.x:submenu.accordion#aquatic"
+        ],
+        "props": {
+            "id": "menu-item-category-aquatic",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/",
+                "noFollow": true,
+                "tagTitle": "Suportes para Equipamentos Aquáticos",
+                "text": "Suportes para Equipamentos Aquáticos"
+            }
+        }
+    },
+    "vtex.menu@2.x:submenu.accordion#aquatic": {
+        "children": [
+            "vtex.menu@2.x:menu#aquatic-accordion"
+        ]
+    },
+    "vtex.menu@2.x:menu#aquatic-accordion": {
         "props": {
             "orientation": "vertical"
         }

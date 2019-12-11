@@ -90,11 +90,6 @@
       "showIconProfile": true
     }
   },
-  "drawer": {
-    "children": [
-      "menu#drawer"
-    ]
-  },
   "logo#mobile": {
     "props": {
       "title": "Logo",

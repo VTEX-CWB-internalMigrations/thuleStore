@@ -60,6 +60,11 @@
   height: 235px;
 }
 
+.flexCol--flexDrawer{
+  position: absolute;
+  left: 0;
+}
+
 @media only screen and (max-width: 640px) {
   .flexRow--miniImage , .flexRow--imageBottom , .flexRow--sliderFlex{
     display: none

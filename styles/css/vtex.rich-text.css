@@ -68,6 +68,53 @@
   font-size: 28px;
   font-weight: 700;
 }
+
+.container--racksMobileMenu .paragraph::before {
+  content: "";
+  background: url(https://thulestore.vteximg.com.br/arquivos/iconRack.png);
+  display: block;
+  width: 81px;
+  height: 50px;
+  background-repeat: no-repeat;
+  position: absolute;
+  right: -75px;
+  top: -2px;
+  background-size: 50px;
+}
+
+.container--activitiesMobileMenu .paragraph::before{
+  content: "";
+  background: url(https://thulestore.vteximg.com.br/arquivos/iconChildren.png);
+  display: block;
+  width: 81px;
+  height: 50px;
+  background-repeat: no-repeat;
+  position: absolute;
+  right: -75px;
+  top: -2px;
+  background-size: 50px;
+}
+
+.container--backpacksMobileMenu .paragraph::before{
+  content: "";
+  background: url(https://thulestore.vteximg.com.br/arquivos/iconBackpack.png);
+  display: block;
+  width: 38px;
+  height: 34px;
+  background-repeat: no-repeat;
+  position: absolute;
+  right: -35px;
+  top: -8px;
+  background-size: 33px;
+}
+
+.container--racksMobileMenu .paragraph , .container--activitiesMobileMenu .paragraph , .container--backpacksMobileMenu .paragraph {
+  position: relative;
+  width: 160px;
+}
+
+
+
 @media only screen and (min-width: 640px) {
   .container--question .strong {
     font-size: 40px;

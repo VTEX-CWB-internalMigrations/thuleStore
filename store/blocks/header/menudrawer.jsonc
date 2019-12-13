@@ -17,7 +17,10 @@
             "menu#drawer2",
             "rich-text#backpacks",
             "menu#drawer3"
-        ]
+        ],
+        "props": {
+            "blockClass": "flexDrawer"
+        }
     },
     "rich-text#racks": {
         "props": {
@@ -290,7 +293,7 @@
     // --
     "rich-text#backpacks": {
         "props": {
-            "text": "ATIVIDADES COM CRIANÇAS",
+            "text": "MALAS E MOCHILAS",
             "blockClass": "backpacksMobileMenu"
         }
     },

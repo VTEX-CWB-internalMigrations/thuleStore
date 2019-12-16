@@ -65,6 +65,42 @@
   left: 0;
 }
 
+.flexColChild--rackOne::before{
+  content: "";
+  background: url(https://thulestore.vteximg.com.br/arquivos/bicycleRack.png);
+  width: 80px;
+  height: 50px;
+  display: block;
+  margin: 0px auto;
+}
+
+.flexColChild--rackTwo::before{
+  content: "";
+  background: url(https://thulestore.vteximg.com.br/arquivos/mainRack.png);
+  width: 80px;
+  height: 50px;
+  display: block;
+  margin: 0px auto;
+}
+
+.flexColChild--rackThree::before{
+  content: "";
+  background: url(https://thulestore.vteximg.com.br/arquivos/baggageImg.png);
+  width: 80px;
+  height: 50px;
+  display: block;
+  margin: 0px auto;
+}
+
+.flexColChild--rackFour::before{
+  content: "";
+  background: url(https://thulestore.vteximg.com.br/arquivos/aquaticRack.png);
+  width: 80px;
+  height: 50px;
+  display: block;
+  margin: 0px auto;
+}
+
 @media only screen and (max-width: 640px) {
   .flexRow--miniImage , .flexRow--imageBottom , .flexRow--sliderFlex{
     display: none

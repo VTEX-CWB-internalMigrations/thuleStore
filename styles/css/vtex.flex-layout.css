@@ -101,6 +101,42 @@
   margin: 0px auto;
 }
 
+.flexColChild--childrenOne::before{
+  content: "";
+  background: url(https://thulestore.vteximg.com.br/arquivos/babyCart.png);
+  width: 80px;
+  height: 50px;
+  display: block;
+  margin: 0px auto;
+}
+
+.flexCol--childrenTwo::before{
+  content: "";
+  background: url(https://thulestore.vteximg.com.br/arquivos/motorRack.png);
+  width: 80px;
+  height: 67px;
+  display: block;
+  margin: 0px auto;
+}
+
+.flexCol--childrenThree::before{
+  content: "";
+  background: url(https://thulestore.vteximg.com.br/arquivos/kidsRack.png);
+  width: 80px;
+  height: 67px;
+  display: block;
+  margin: 0px auto;
+}
+
+.flexCol--childrenFour::before{
+  content: "";
+  background: url(https://thulestore.vteximg.com.br/arquivos/backsBaby.png);
+  width: 80px;
+  height: 67px;
+  display: block;
+  margin: 0px auto;
+}
+
 @media only screen and (max-width: 640px) {
   .flexRow--miniImage , .flexRow--imageBottom , .flexRow--sliderFlex{
     display: none

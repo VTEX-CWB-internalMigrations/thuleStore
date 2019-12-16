@@ -121,7 +121,8 @@
         "mobile": 1
       },
       "autoplay": false,
-      "showNavigationArrows": "never"
+      "showNavigationArrows": "never",
+      "showPaginationDots": "always"
     }
   },
   "image#leftOne": {
@@ -146,7 +147,8 @@
         "mobile": 1
       },
       "autoplay": false,
-      "showNavigationArrows": "never"
+      "showNavigationArrows": "never",
+      "showPaginationDots": "always"
     }
   },
   "image#rightOne": {

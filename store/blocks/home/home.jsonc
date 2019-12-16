@@ -11,8 +11,15 @@
       "flex-layout.row#shelfOne",
       "flex-layout.row#shelfTwo",
       "newsletter",
-      "flex-layout.row#qualityImage"
+      "flex-layout.row#qualityImage",
+      "rich-text#whatsapp"
     ]
+  },
+  "rich-text#whatsapp": {
+    "props": {
+      "text": "[![Whatsapp Icon](https://thulestore.vteximg.com.br/arquivos/whatsappIcon.png)](https://api.whatsapp.com/send?phone=5512981430542)",
+      "blockClass": "whatsappIcon"
+    }
   },
   "flex-layout.row#miniImages": {
     "children": [

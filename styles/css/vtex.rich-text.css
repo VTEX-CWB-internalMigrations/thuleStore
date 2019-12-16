@@ -113,6 +113,14 @@
   width: 160px;
 }
 
+.container--whatsappIcon .image{
+  width: 60px;
+  position: fixed;
+  z-index: 99999;
+  right: 10px;
+  bottom: 10px;
+}
+
 
 
 @media only screen and (min-width: 640px) {

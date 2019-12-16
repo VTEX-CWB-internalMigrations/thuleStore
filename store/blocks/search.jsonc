@@ -73,8 +73,8 @@
       "pagination": "show-more",
       "preventRouteChange": true,
       "mobileLayout": {
-        "mode1": "small",
-        "mode2": "normal"
+        "mode1": "normal",
+        "mode2": "small"
       }
     }
   },
@@ -180,8 +180,8 @@
     "props": {
       "pagination": "show-more",
       "mobileLayout": {
-        "mode1": "small",
-        "mode2": "normal"
+        "mode1": "normal",
+        "mode2": "small"
       }
     }
   },
@@ -261,7 +261,8 @@
       "product-summary.shelf"
     ],
     "props": {
-      "maxItemsPerRow": 4
+      "maxItemsPerRow": 4,
+      "minItemsPerPage": 1
     }
   }
 }

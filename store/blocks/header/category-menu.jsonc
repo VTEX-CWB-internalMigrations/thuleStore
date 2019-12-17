@@ -186,7 +186,8 @@
       "flex-layout.col#backpackOne",
       "flex-layout.col#backpackTwo",
       "flex-layout.col#backpackThree",
-      "flex-layout.col#backpackFour"
+      "flex-layout.col#backpackFour",
+      "flex-layout.col#backpackFive"
     ]
   },
   "flex-layout.col#backpackOne": {
@@ -219,6 +220,14 @@
     ],
     "props": {
       "blockClass": "backpackFour"
+    }
+  },
+  "flex-layout.col#backpackFive": {
+    "children": [
+      "vtex.menu@2.x:menu#submenuMain"
+    ],
+    "props": {
+      "blockClass": "backpackFive"
     }
   }
 }

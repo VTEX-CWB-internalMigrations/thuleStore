@@ -148,20 +148,42 @@
 
 .flexCol--backpackOne::before{
   content: "";
-  background: url(http://thulestore.vteximg.com.br/arquivos/allBackpacks1.png);
-  width: 80px;
+  background: url(https://thulestore.vteximg.com.br/arquivos/allBackpacks1.png);
+  width: 70px;
   height: 67px;
   display: block;
   margin: 0px auto;
+  background-repeat: no-repeat;
 }
 
 .flexCol--backpackTwo::before{
   content: "";
-  background: url(http://thulestore.vteximg.com.br/arquivos/oneBackpacks1.png);
-  width: 80px;
+  background: url(https://thulestore.vteximg.com.br/arquivos/oneBackpacks1.png);
+  width: 70px;
   height: 67px;
   display: block;
   margin: 0px auto;
+  background-repeat: no-repeat;
+}
+
+.flexCol--backpackThree::before{
+  content: "";
+  background: url(https://thulestore.vteximg.com.br/arquivos/bicycleComplete.png);
+  width: 70px;
+  height: 67px;
+  display: block;
+  margin: 0px auto;
+  background-repeat: no-repeat;
+}
+
+.flexCol--backpackFour::before{
+  content: "";
+  background: url(https://thulestore.vteximg.com.br/arquivos/computerIcon.png);
+  width: 70px;
+  height: 67px;
+  display: block;
+  margin: 0px auto;
+  background-repeat: no-repeat;
 }
 
 @media only screen and (max-width: 640px) {

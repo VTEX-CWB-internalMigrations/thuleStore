@@ -43,7 +43,10 @@
       "flex-layout.col#rackTwo",
       "flex-layout.col#rackThree",
       "flex-layout.col#rackFour"
-    ]
+    ],
+    "props": {
+      "blockClass": "menuRow"
+    }
   },
   "flex-layout.col#rackOne": {
     "children": [
@@ -118,7 +121,10 @@
       "flex-layout.col#childrenTwo",
       "flex-layout.col#childrenThree",
       "flex-layout.col#childrenFour"
-    ]
+    ],
+    "props": {
+      "blockClass": "menuRow"
+    }
   },
   "flex-layout.col#childrenOne": {
     "children": [
@@ -188,7 +194,10 @@
       "flex-layout.col#backpackThree",
       "flex-layout.col#backpackFour",
       "flex-layout.col#backpackFive"
-    ]
+    ],
+    "props": {
+      "blockClass": "menuRow"
+    }
   },
   "flex-layout.col#backpackOne": {
     "children": [

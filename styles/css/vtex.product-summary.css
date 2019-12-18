@@ -6,3 +6,17 @@
     color: #7bafd4;
     font-weight: 700;
 }
+
+.description{
+    height: 85px;
+    display: block;
+}
+
+.nameContainer{
+    padding: 10px;
+}
+
+.productNameContainer{
+    display: block;
+    height: 40px;
+}

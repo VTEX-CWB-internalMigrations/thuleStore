@@ -3,9 +3,9 @@
     "children": [
       "flex-layout.row#product-breadcrumb",
       "flex-layout.row#product-main",
-      "flex-layout.row#descriptionTab",
+      "shelf.relatedProducts",
+      "flex-layout.row#descriptionTab"
       //"flex-layout.row#description",
-      "shelf.relatedProducts"
       //"product-reviews",
       //"product-questions-and-answers"
     ]

@@ -18,5 +18,9 @@
 
 .productNameContainer{
     display: block;
-    height: 40px;
+    height: 35px;
+}
+
+.imageNormal{
+    height: 195px;
 }

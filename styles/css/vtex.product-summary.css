@@ -22,5 +22,5 @@
 }
 
 .imageNormal{
-    height: 195px;
+    max-height: 195px;
 }

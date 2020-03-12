@@ -186,6 +186,21 @@
   background-repeat: no-repeat;
 }
 
+/*PERGUNTAS FREQUENTES*/
+.flexRowContent--questionTitle{
+  margin-top: 15px;
+}
+.flexRow--questionAnswer{
+  display: none;
+}
+.flexCol--questionCol:hover .flexRow--questionAnswer{
+  display: block;
+}
+
+
+
+/* FIM PERGUNTAS FREQUENTES*/
+
 .flexCol--backpackFive::before{
   content: "";
   background: url(https://thulestore.vteximg.com.br/arquivos/camIcon.png);

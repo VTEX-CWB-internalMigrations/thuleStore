@@ -1,0 +1,54 @@
+{
+    "store.custom#faq": {
+        "blocks": [
+            "flex-layout.row#questionRow",
+            "flex-layout.row#questionRow",
+            "flex-layout.row#questionRow"
+        ]
+    },
+    // QUESTION ONE
+    "flex-layout.row#questionRow": {
+        "children": [
+            "flex-layout.col#questionCol"
+        ],
+        "props": {
+            "blockClass": "questionRow"
+        }
+    },
+    "flex-layout.col#questionCol": {
+        "children": [
+            "flex-layout.row#questionTitle",
+            "flex-layout.row#questionAnswer"
+        ],
+        "props": {
+            "blockClass": "questionCol"
+        }
+    },
+    "flex-layout.row#questionTitle": {
+        "children": [
+            "rich-text#questionTitle"
+        ],
+        "props": {
+            "blockClass": "questionTitle"
+        }
+    },
+    "rich-text#questionTitle": {
+        "props": {
+            "text": "questionTitle",
+            "blockClass": "questionTitle"
+        }
+    },
+    "flex-layout.row#questionAnswer": {
+        "children": [
+            "rich-text#questionAnswer"
+        ],
+        "props": {
+            "blockClass": "questionAnswer"
+        }
+    },
+    "rich-text#questionAnswer": {
+        "props": {
+            "text": "questionAnswer"
+        }
+    }
+}

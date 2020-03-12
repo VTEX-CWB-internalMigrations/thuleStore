@@ -63,7 +63,9 @@
     "children": [
       "menu-item#teste"
     ],
-    "props": {}
+    "props": {
+      "blockClass": "faqItens"
+    }
   },
   "menu-item#teste": {
     "props": {

@@ -100,8 +100,21 @@
 
 @media only screen and (min-width: 640px) {
 
+
+  .resultsList{
+    max-width: 300px;
+    right: -19px;
+    position: absolute;
+    left: auto;
+  }
+
   .label {
     font-size: 40px;
+  }
+
+  .logoImage{
+    width: 300px;
+    min-width: 200px;
   }
 
   .searchBarContainer {

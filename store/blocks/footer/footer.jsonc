@@ -11,6 +11,14 @@
       "flex-layout.row#footer-2-desktop"
     ]
   },
+  "sticky-layout#filtersButton": {
+    "children": [
+      "rich-text#gotomanual"
+    ],
+    "props": {
+      "position": "bottom"
+    }
+  },
   "flex-layout.row#footer-1-desktop": {
     "children": [
       "footer-spacer",

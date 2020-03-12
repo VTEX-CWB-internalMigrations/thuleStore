@@ -12,8 +12,15 @@
       "flex-layout.row#shelfTwo",
       "newsletter",
       "flex-layout.row#qualityImage",
-      "rich-text#whatsapp"
+      "rich-text#whatsapp",
+      "rich-text#gotomanual"
     ]
+  },
+  "rich-text#gotomanual": {
+    "props": {
+      "text": "[Manual do Comprador](http://ciashop.com.br/thuleteste/ 'Link para o manual do comprador Thule')",
+      "blockClass": "footerManualLink"
+    }
   },
   "rich-text#whatsapp": {
     "props": {

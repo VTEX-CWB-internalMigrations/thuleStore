@@ -51,9 +51,35 @@
     background: #95acbf;
 }
 
+
 @media only screen and (min-width: 640px) {
     .submenuContainer{
         left: 10%;
         position: absolute;
     }
+    .menuContainerNav--iconSearchMaster{
+        position: relative;
+        margin: 0px 10px;
+    }
+    .menuItem--searchIcon , .menuItem--faqItem{
+        position: absolute
+    }
+    .menuItem--searchIcon .submenuContainer{
+        min-width: 300px;
+        left: -150px;
+    }
+    .menuItem--faqItem .submenuContainer{
+        left: auto;
+        width: 200px;
+        right: -50px;
+    }
+    .menuItem--searchIcon .submenuWrapper, .menuItem--faqItem .submenuWrapper{
+        padding: 15px;
+        border-radius: 5px;
+    }
+    .menuItem--faqItem .submenuWrapper{
+        width: 200px;
+        text-align: left;
+    }
+
 }

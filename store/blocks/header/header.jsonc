@@ -23,9 +23,9 @@
       "vtex.menu@2.x:menu#category-menu",
       "header-spacer",
       "header-spacer",
-      "search-bar",
-      "locale-switcher",
       "login",
+      "vtex.menu@2.x:menu#searchBar",
+      "vtex.menu@2.x:menu#faqMenu",
       "minicart",
       "header-spacer"
     ],
@@ -33,6 +33,86 @@
       "sticky": true,
       "blockClass": "main-header"
     }
+  },
+  "vtex.menu@2.x:menu#faqMenu": {
+    "children": [
+      "menu-item#faqItem",
+      "image#faqImage"
+    ]
+  },
+  "image#faqImage": {
+    "props": {
+      "src": " https://thulestore.vteximg.com.br/arquivos/faqMenu.png",
+      "blockClass": "iconSearch"
+    }
+  },
+  "menu-item#faqItem": {
+    "blocks": [
+      "vtex.menu@2.x:submenu#faqItens"
+    ],
+    "props": {
+      "blockClass": "faqItem"
+    }
+  },
+  "vtex.menu@2.x:submenu#faqItens": {
+    "children": [
+      "vtex.menu@2.x:menu#faqItens"
+    ]
+  },
+  "vtex.menu@2.x:menu#faqItens": {
+    "children": [
+      "menu-item#teste"
+    ],
+    "props": {}
+  },
+  "menu-item#teste": {
+    "props": {
+      "text": "Test"
+    }
+  },
+  "vtex.menu@2.x:menu#searchBar": {
+    "children": [
+      "menu-item#searchIcon",
+      "image#searchIcon"
+    ],
+    "props": {
+      "blockClass": "iconSearchMaster"
+    }
+  },
+  "image#searchIcon": {
+    "props": {
+      "src": " https://thulestore.vteximg.com.br/arquivos/iconSearch.png",
+      "blockClass": "iconSearch"
+    }
+  },
+  "menu-item#searchIcon": {
+    "blocks": [
+      "vtex.menu@2.x:submenu#searchBar"
+    ],
+    "props": {
+      "id": "menu-item-searchIcon",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "searchIcon",
+      "itemProps": {
+        "type": "internal",
+        "href": "",
+        "noFollow": true,
+        "tagTitle": "",
+        "text": ""
+      }
+    }
+  },
+  "vtex.menu@2.x:submenu#searchBar": {
+    "children": [
+      "flex-layout.row#searchBar"
+    ]
+  },
+  "flex-layout.row#searchBar": {
+    "children": [
+      "search-bar"
+    ]
   },
   "logo#desktop": {
     "props": {

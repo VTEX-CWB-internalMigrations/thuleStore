@@ -142,10 +142,12 @@
   background: #000;
   padding: 0px 30px;
   font-weight: 900;
+  max-width: 1000px;
 }
 .container--questionAnswer{
   padding: 0px 30px;
   background-color: #efefefd1;
+  max-width: 1000px;
 }
 
 

@@ -196,8 +196,9 @@
 .flexCol--questionCol:hover .flexRow--questionAnswer{
   display: block;
 }
-
-
+.flexCol--questionCol{
+  max-width: 1000px;
+}
 
 /* FIM PERGUNTAS FREQUENTES*/
 

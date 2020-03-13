@@ -53,7 +53,8 @@
     },
     "rich-text#questionAnswer": {
         "props": {
-            "text": "questionAnswer"
+            "text": "questionAnswer",
+            "blockClass": "questionAnswer"
         }
     },
     // QUESTION TWO

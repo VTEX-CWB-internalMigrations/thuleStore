@@ -142,6 +142,9 @@
   background: #000;
   padding: 0px 30px;
 }
+.container--questionAnswer{
+  padding: 0px 30px;
+}
 
 
 @media only screen and (min-width: 640px) {

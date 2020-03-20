@@ -11,6 +11,7 @@
     },
     "flex-layout.col#drawer": {
         "children": [
+            "rich-text#manual",
             "rich-text#racks",
             "menu#drawer1",
             "rich-text#activities",
@@ -20,6 +21,12 @@
         ],
         "props": {
             "blockClass": "flexDrawer"
+        }
+    },
+    "rich-text#manual":{
+        "props":{
+            "text": "[GUIA DO COMPRADOR](https://www.thule.com/pt-br/buyers-guide?utm_source=Thule+Store+Colinas+BR&amp;utm_medium=RetailerTraffic&amp;utm_campaign=FitGuide&amp;dealerId=DEB2D2F2-4027-445E-95E9-B393DD975EDE)",
+            "blockClass": "manualMobile"
         }
     },
     "rich-text#racks": {

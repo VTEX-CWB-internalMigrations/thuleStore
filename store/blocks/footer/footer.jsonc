@@ -141,7 +141,10 @@
       "flex-layout.row#footer-1-desktop"
       //"flex-layout.row#1-footer-mobile",//
       //"flex-layout.row#2-footer-mobile"//
-    ]
+    ],
+    "props":{
+      "blockClass": "foooterMobile"
+    }
   },
   "flex-layout.row#2-footer-mobile": {
     "children": [

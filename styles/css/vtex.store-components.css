@@ -96,6 +96,14 @@
   padding: 20px;
 }
 
+.shippingContainer :global(.vtex-input__label){
+  font-size: 0px;
+}
+.shippingContainer :global(.vtex-input__label)::before{
+  content: "Calcule o CEP";
+  font-size: 15px;
+}
+
 
 
 @media only screen and (min-width: 640px) {

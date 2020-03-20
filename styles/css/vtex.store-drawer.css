@@ -1,3 +1,6 @@
 .openIconContainer{
     color: #FFF;
 }
+.drawer{
+    overflow-y: scroll;
+}

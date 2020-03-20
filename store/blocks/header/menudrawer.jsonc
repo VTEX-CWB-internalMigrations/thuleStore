@@ -417,7 +417,8 @@
                 "noFollow": true,
                 "tagTitle": "Cases para Notebooks e Tablets",
                 "text": "Cases para Notebooks e Tablets"
-            }
+            },
+            "blockClass": "lastItemMobile"
         }
     },
     "vtex.menu@2.x:submenu.accordion#cases": {

@@ -27,6 +27,10 @@
     margin: 0px auto;
 }
 
+.shelfContentContainer{
+    height: 100%;
+}
+
 @media only screen and (max-width: 640px) {
     .arrowLeft{
         left: 0px;

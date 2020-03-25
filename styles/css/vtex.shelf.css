@@ -31,6 +31,10 @@
     height: 100%;
 }
 
+.title{
+    font-size: 100px;
+}
+
 @media only screen and (max-width: 640px) {
     .arrowLeft{
         left: 0px;

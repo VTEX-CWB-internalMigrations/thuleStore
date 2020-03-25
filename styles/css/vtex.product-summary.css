@@ -24,3 +24,7 @@
 .imageNormal{
     max-height: 195px;
 }
+
+.price_sellingPrice{
+    font-weight: 700;
+}

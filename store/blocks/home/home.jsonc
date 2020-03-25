@@ -5,7 +5,7 @@
       /* You can make references to blocks defined in other files.
        * For example, `flex-layout.row#deals` is defined in the `deals.json` file. */
       //"flex-layout.row#deals",
-      "flex-layout.row#miniImages",
+      //"flex-layout.row#miniImages",
       "flex-layout.row#mediumImages",
       "flex-layout.row#slideImages",
       "flex-layout.row#shelfOne",
@@ -90,19 +90,19 @@
   "image#mediumOne": {
     "props": {
       "src": "https://thulestore.vteximg.com.br/arquivos/medImage1.jpg",
-      "blockClass": "mediumImage"
+      "blockClass": "mediumImageOne"
     }
   },
   "image#mediumTwo": {
     "props": {
       "src": "https://thulestore.vteximg.com.br/arquivos/medImage2.jpg",
-      "blockClass": "mediumImage"
+      "blockClass": "mediumImageTwo"
     }
   },
   "image#mediumThree": {
     "props": {
       "src": "https://thulestore.vteximg.com.br/arquivos/medImage3.jpg",
-      "blockClass": "mediumImage"
+      "blockClass": "mediumImageThree"
     }
   },
   "flex-layout.row#slideImages": {

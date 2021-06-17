@@ -1,8 +1,0 @@
-{
-  "name": "thule",
-  "version": "1.0.0",
-  "description": "Integração Ame Digital",
-  "main": "index.js",
-  "author": "André Rezende",
-  "license": "MIT"
-}

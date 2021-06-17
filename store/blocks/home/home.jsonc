@@ -43,7 +43,7 @@
   },
   "flex-layout.col#middleSpacer": {
     "props": {
-      "width": "3%"
+      "width": "15%"
     }
   },
   "flex-layout.col#miniSpacer": {

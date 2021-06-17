@@ -175,7 +175,7 @@
       "sku-selector",
       "product-quantity",
       "product-assembly-options",
-      "ame-digital#product-page",
+      "flex-layout.row#buy-button",
       "flex-layout.row#buy-button",
       "availability-subscriber",
       "shipping-simulator",
@@ -193,15 +193,6 @@
       "showSavings": true
     }
   },
-
-  "ame-digital#product-page": {
-    "props": {
-      "marginTop": 4,
-      "marginBottom": 7,
-      "AmeBtn": true
-      }
-   },
-
   "flex-layout.row#buy-button": {
     "props": {
       "marginTop": 4,
@@ -217,7 +208,7 @@
         "Facebook": true,
         "WhatsApp": true,
         "Twitter": false,
-        "Pinterest": true
+        "Pinterest": false
       }
     }
   }

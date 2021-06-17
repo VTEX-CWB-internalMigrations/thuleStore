@@ -1,0 +1,123 @@
+{
+    "store.custom#faq": {
+        "blocks": [
+            "flex-layout.row#questionRow",
+            "flex-layout.row#questionRow2",
+            "flex-layout.row#questionRow3",
+            "flex-layout.row#questionRow4",
+            "flex-layout.row#questionRow5",
+            "flex-layout.row#questionRow6",
+            "flex-layout.row#questionRow7",
+            "flex-layout.row#questionRow8"
+        ]
+    },
+    // QUESTION ONE
+    "flex-layout.row#questionRow": {
+        "children": [
+            "flex-layout.col#questionCol"
+        ],
+        "props": {
+            "blockClass": "questionRow"
+        }
+    },
+    "flex-layout.col#questionCol": {
+        "children": [
+            "flex-layout.row#questionTitle",
+            "flex-layout.row#questionAnswer"
+        ],
+        "props": {
+            "blockClass": "questionCol"
+        }
+    },
+    "flex-layout.row#questionTitle": {
+        "children": [
+            "rich-text#questionTitle"
+        ],
+        "props": {
+            "blockClass": "questionTitle"
+        }
+    },
+    "rich-text#questionTitle": {
+        "props": {
+            "text": "questionTitle",
+            "blockClass": "questionTitle"
+        }
+    },
+    "flex-layout.row#questionAnswer": {
+        "children": [
+            "rich-text#questionAnswer"
+        ],
+        "props": {
+            "blockClass": "questionAnswer"
+        }
+    },
+    "rich-text#questionAnswer": {
+        "props": {
+            "text": "questionAnswer",
+            "blockClass": "questionAnswer"
+        }
+    },
+    // QUESTION TWO
+    "flex-layout.row#questionRow2": {
+        "children": [
+            "flex-layout.col#questionCol"
+        ],
+        "props": {
+            "blockClass": "questionRow"
+        }
+    },
+    // QUESTION TWO
+    "flex-layout.row#questionRow3": {
+        "children": [
+            "flex-layout.col#questionCol"
+        ],
+        "props": {
+            "blockClass": "questionRow"
+        }
+    },
+    // QUESTION TWO
+    "flex-layout.row#questionRow4": {
+        "children": [
+            "flex-layout.col#questionCol"
+        ],
+        "props": {
+            "blockClass": "questionRow"
+        }
+    },
+    // QUESTION TWO
+    "flex-layout.row#questionRow5": {
+        "children": [
+            "flex-layout.col#questionCol"
+        ],
+        "props": {
+            "blockClass": "questionRow"
+        }
+    },
+    // QUESTION TWO
+    "flex-layout.row#questionRow6": {
+        "children": [
+            "flex-layout.col#questionCol"
+        ],
+        "props": {
+            "blockClass": "questionRow"
+        }
+    },
+    // QUESTION TWO
+    "flex-layout.row#questionRow7": {
+        "children": [
+            "flex-layout.col#questionCol"
+        ],
+        "props": {
+            "blockClass": "questionRow"
+        }
+    },
+    // QUESTION TWO
+    "flex-layout.row#questionRow8": {
+        "children": [
+            "flex-layout.col#questionCol"
+        ],
+        "props": {
+            "blockClass": "questionRow"
+        }
+    }
+}

@@ -1,11 +1,12 @@
 {
   "vendor": "thulestore",
   "name": "thule-store-theme",
-  "version": "0.0.64",
+  "version": "0.0.65",
   "builders": {
     "styles": "2.x",
     "store": "0.x",
-    "sitemap": "0.x"
+    "sitemap": "0.x",
+    "react": "2.x"
   },
   "mustUpdateAt": "2018-09-05",
   "scripts": {
@@ -42,7 +43,8 @@
     "vtex.slider-layout": "0.x",
     "vtex.order-placed": "1.x",
     "vtex.tab-layout": "0.x",
-    "vtex.sandbox": "0.x"
+    "vtex.sandbox": "0.x",
+    "vtex.css-handles": "0.x"
   },
   "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema"
 }

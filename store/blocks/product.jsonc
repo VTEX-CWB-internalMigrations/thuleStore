@@ -201,15 +201,6 @@
       "AmeBtn": true
       }
    },
- 
-   "rich-text#product-page": {
-     "props": {
-       "text": true
-     },
-     "children": [
-      "Amedigital"
-    ]
-   },
 
   "flex-layout.row#buy-button": {
     "props": {

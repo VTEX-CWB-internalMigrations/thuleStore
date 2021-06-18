@@ -175,6 +175,8 @@
       "sku-selector",
       "product-quantity",
       "product-assembly-options",
+      "rich-text#title-ame",
+      "ame-digital",
       "flex-layout.row#buy-button",
       "availability-subscriber",
       "shipping-simulator",

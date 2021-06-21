@@ -4,8 +4,8 @@
       "flex-layout.row#product-breadcrumb",
       "flex-layout.row#product-main",
       "shelf.relatedProducts",
-      "flex-layout.row#descriptionTab",
-      "flex-layout.row#description"
+      "flex-layout.row#descriptionTab"
+      //"flex-layout.row#description"
       //"product-reviews",
       //"product-questions-and-answers"
     ]
@@ -176,6 +176,7 @@
       "product-quantity",
       "product-assembly-options",
       "rich-text#title-ame",
+      "ame-digital",
       "ame-digital",
       "flex-layout.row#buy-button",
       "availability-subscriber",

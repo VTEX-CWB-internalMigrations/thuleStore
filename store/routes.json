@@ -4,5 +4,8 @@
   },
   "store.custom#faq": {
     "path": "/faq"
+  },
+  "store.custom#dna": {
+    "path": "/dna"
   }
 }

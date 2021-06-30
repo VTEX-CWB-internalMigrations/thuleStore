@@ -16,6 +16,10 @@
   margin-bottom: 20px;
 }
 
+.containerNormal {
+  margin: 5px;
+}
+
 .nameContainer{
     padding: 10px;
 }

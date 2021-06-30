@@ -57,7 +57,7 @@
 .flexRow--shelfMaster{
   background: #f1f1f1;
   padding: 10px;
-  height: 53vh;
+  height: 465px;
 }
 
 .flexCol--flexDrawer{
@@ -218,7 +218,7 @@
   }
 
   .flexRow--shelfMaster{
-    height: 60vh;
+    height: auto;
   }
 
 }

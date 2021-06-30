@@ -218,7 +218,7 @@
   "rich-text#ame-digital": {
     "props": {
       "textAlignment": "CENTER",
-      "text": "Compre com ![AME Logo](https://thulestore.vteximg.com.br/arquivos/logo-ame.png)\ne receba até 10% de volta ",
+      "text": "Compre com ![AME Logo](https://thulestore.vteximg.com.br/arquivos/logo-ame.png)\ne receba até 5% de volta ",
       "font": "t-heading-5",
       "blockClass": "ame-digital"
     }
